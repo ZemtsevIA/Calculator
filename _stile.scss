@@ -4,4 +4,9 @@
     box-sizing: border-box;
   }
 
-  
+  body {
+    background: -webkit-linear-gradient(90deg, #8f35b5,#542c9a,#07207b);
+    background: linear-gradient(90deg, #8f35b5,#542c9a,#07207b);
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
