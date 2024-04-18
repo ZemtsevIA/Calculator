@@ -61,3 +61,25 @@
         font-size: 54px;
     }
   }
+
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    button {
+        border: none;
+        color: white;
+        border: 2px solid rgba(14, 30, 37, 0.12);
+        border-radius: 50px;
+        padding: 28px 30px;
+        width: 100px;
+        margin: 10px 6px;
+        font-size: 30px;
+        background-color: rgba(128, 128, 128, 0.372);
+      }
+
+    button:hover {
+    color: #8f35b5;
+    border: 2px solid #8f35b5;
+        
+    }
+  }
