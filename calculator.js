@@ -35,3 +35,30 @@ function clearDisplay() {
   display.value = '';
   display2.value = '';
 }
+
+function clearDisplay() {
+    display.value = '';
+    display2.value = '';
+  }
+  
+  function calculate() {
+    try {
+      display.value = eval(display.value);
+    } catch(error) {
+      display.value = 'Error';
+    }
+    display2.value = '';
+    temp = 0;
+  }
+  
+  function preliminaryResult() {
+      try {
+          display2.value = "=" + eval(display.value);
+      } catch(error) {
+          
+      }
+  }
+  
+  function revers(){
+      display.value = display.value * -1;
+  }
